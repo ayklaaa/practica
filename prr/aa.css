@@ -1099,10 +1099,20 @@
   overflow: hidden;
   max-height: 100%;
 }
+
+.read__buttomm {
+  position: absolute;
+  top: 2657px;
+  left: 1185px;
+  border-radius: 11px;
+  background-color: #e4c093;
+  width: 135px;
+  height: 33px;
+}
 .read__button,
 .read__buttom {
   position: absolute;
-  top: 2657px;
+  top: 3206px;
   left: 1185px;
   border-radius: 11px;
   background-color: #e4c093;
@@ -1387,6 +1397,7 @@ body {
   width: 385px;
   height: 152px;
   font-family: var(--font-montserrat);
+  margin: 0px -105px;
 }
 @media screen and (max-width: 1000px) {
   .footer__account {
@@ -1423,7 +1434,7 @@ body {
 .footer__account,
 .item__registration {
   position: absolute;
-  left: 775px;
+  left: 870px;
 }
 @media screen and (max-width: 1000px) {
   .item__registration {
